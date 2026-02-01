@@ -1,6 +1,6 @@
-# JarWiz AI Frontend
+# Meeting Copilot Frontend 
 
-A modern React-based frontend for the JarWiz AI multimodal RAG system. Features real-time meeting transcription, PDF document upload, intelligent Q&A with citations, and a clean three-panel interface.
+A modern React-based frontend for the Meeting Copilot Frontend  multimodal RAG system. Features real-time meeting transcription, PDF document upload, intelligent Q&A with citations, and a clean three-panel interface.
 
 ## Features
 
