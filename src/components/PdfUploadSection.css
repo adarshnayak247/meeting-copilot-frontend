@@ -1,0 +1,61 @@
+.pdf-upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.drop-zone {
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.drop-zone:hover {
+  border-color: var(--accent);
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.file-input {
+  display: none;
+}
+
+.drop-label {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.pdf-upload-section .btn {
+  align-self: flex-start;
+}
+
+.doc-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.doc-list li {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.doc-list li:hover {
+  background: var(--hover);
+}
+
+.doc-list li.selected {
+  background: rgba(99, 102, 241, 0.2);
+  color: var(--accent);
+}
+
+.doc-list .meta {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
