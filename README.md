@@ -23,7 +23,7 @@ A modern React-based frontend for the Meeting Copilot Frontend - Jarwiz AI, mult
 
 - Node.js 18+ 
 - npm or yarn
-- Backend API running at `http://localhost:8000` (see [meeting-copilot-backend](https://github.com/adarshnayak247/meeting-copilot-backend))
+- Backend API running (see [meeting-copilot-backend](https://github.com/adarshnayak247/meeting-copilot-backend))
 
 ### Installation
 
